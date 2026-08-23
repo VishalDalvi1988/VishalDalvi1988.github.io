@@ -294,30 +294,18 @@ font-weight:bold;
 
 }
 .project-container{
-
-display:flex;
-
-justify-content:center;
-
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
 margin-top:40px;
-
 }
 .project-card{
-
 background:#334155;
-
 border-radius:15px;
-
 overflow:hidden;
-
 transition:.3s;
-
 box-shadow:0 5px 20px rgba(0,0,0,.3);
-
-max-width:700px;
-
-margin:auto;
-
+max-width:100%;
 }
 .project-card:hover{
 
